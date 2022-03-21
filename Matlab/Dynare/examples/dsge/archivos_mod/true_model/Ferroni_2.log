@@ -1,0 +1,204 @@
+Starting Dynare (version 4.5.4).
+Starting preprocessing of the model file ...
+Found 8 equation(s).
+Evaluating expressions...done
+Computing static model derivatives:
+ - order 1
+ - order 2
+ - derivatives of Jacobian/Hessian w.r. to parameters
+Computing dynamic model derivatives:
+ - order 1
+ - order 2
+ - derivatives of Jacobian/Hessian w.r. to parameters
+Processing outputs ...
+done
+Preprocessing completed.
+
+STEADY-STATE RESULTS:
+
+y     		 2.36641
+c     		 1.86078
+k     		 20.2251
+h     		 0.94351
+e_a   		 0
+e_b   		 0
+y_obs 		 1
+h_obs 		 1
+
+
+
+
+Residuals of the static equations:
+
+Equation number 1 : 0
+Equation number 2 : 0
+Equation number 3 : 0
+Equation number 4 : 0
+Equation number 5 : 0
+Equation number 6 : 0
+Equation number 7 : 0
+Equation number 8 : 0
+
+
+Prior distribution for parameter alpha has unbounded density!
+Prior distribution for parameter alpha has two modes!
+Prior distribution for parameter rho_a has unbounded density!
+Prior distribution for parameter rho_a has two modes!
+Prior distribution for parameter rho_b has unbounded density!
+Prior distribution for parameter rho_b has two modes!
+
+==== Identification analysis ====
+
+Prior distribution for parameter alpha has unbounded density!
+Prior distribution for parameter alpha has two modes!
+Prior distribution for parameter rho_a has unbounded density!
+Prior distribution for parameter rho_a has two modes!
+Prior distribution for parameter rho_b has unbounded density!
+Prior distribution for parameter rho_b has two modes!
+Testing prior mean
+  
+All parameters are identified in the model (rank of H).
+
+
+All parameters are identified by J moments (rank of J)
+
+
+==== Identification analysis completed ====
+
+
+
+You did not declare endogenous variables after the estimation/calib_smoother command.
+Posterior IRFs will be computed for the 8 endogenous variables
+of your model, this can be very long....
+
+
+Choose one of the following options:
+
+ [1] Consider all the endogenous variables.
+ [2] Consider all the observed endogenous variables.
+ [3] Stop Dynare and change the mod file.
+
+options [default is 1] =  
+
+Prior distribution for parameter alpha has unbounded density!
+Prior distribution for parameter alpha has two modes!
+Prior distribution for parameter rho_a has unbounded density!
+Prior distribution for parameter rho_a has two modes!
+Prior distribution for parameter rho_b has unbounded density!
+Prior distribution for parameter rho_b has two modes!
+Initial value of the log posterior (or likelihood): -58222.3183
+
+==========================================================
+   Change in the posterior covariance matrix = 15.9903.
+   Change in the posterior mean = 1.3311.
+   Mode improvement = 57478.6694
+   New value of jscale = 0.0020752
+==========================================================
+
+==========================================================
+   Change in the posterior covariance matrix = 0.27652.
+   Change in the posterior mean = 11.9682.
+   Mode improvement = 377.0452
+   New value of jscale = 0.083834
+==========================================================
+
+==========================================================
+   Change in the posterior covariance matrix = 0.083141.
+   Change in the posterior mean = 11.515.
+   Mode improvement = 452.7536
+   New value of jscale = 0.12194
+==========================================================
+
+Optimal value of the scale parameter = 0.12194
+
+
+Final value of minus the log posterior (or likelihood):667.940553 
+
+MODE CHECK
+
+Fval obtained by the minimization routine (minus the posterior/likelihood)): 667.940553
+
+RESULTS FROM POSTERIOR ESTIMATION
+parameters
+    prior mean     mode    s.d. prior pstdev
+
+alpha   0.500   0.0996  0.1037 beta  0.2887 
+chi     1.000   0.1374  0.0073 gamm  0.8452 
+rho_a   0.500   0.9999  0.0036 beta  0.2887 
+rho_b   0.500   0.9993  0.0017 beta  0.2887 
+
+standard deviation of shocks
+    prior mean     mode    s.d. prior pstdev
+
+v_a     0.100   1.3978  0.4506 invg  4.0000 
+v_b     0.100   1.1691  0.1930 invg  4.0000 
+
+
+Log data density [Laplace approximation] is -688.107797.
+
+Estimation::mcmc: Multiple chains mode.
+Estimation::mcmc: Old mh-files successfully erased!
+Estimation::mcmc: Old metropolis.log file successfully erased!
+Estimation::mcmc: Creation of a new metropolis.log file.
+Estimation::mcmc: Searching for initial values...
+Estimation::mcmc: Initial values found!
+
+Estimation::mcmc: Write details about the MCMC... Ok!
+Estimation::mcmc: Details about the MCMC are available in Ferroni_2/metropolis\Ferroni_2_mh_history_0.mat
+
+
+Estimation::mcmc: Number of mh files: 1 per block.
+Estimation::mcmc: Total number of generated files: 2.
+Estimation::mcmc: Total number of iterations: 20000.
+Estimation::mcmc: Current acceptance ratio per chain: 
+                                                       Chain  1: 28.58%
+                                                       Chain  2: 28.2%
+Estimation::mcmc: Total number of MH draws per chain: 20000.
+Estimation::mcmc: Total number of generated MH files: 1.
+Estimation::mcmc: I'll use mh-files 1 to 1.
+Estimation::mcmc: In MH-file number 1 I'll start at line 10001.
+Estimation::mcmc: Finally I keep 10000 draws per chain.
+
+
+
+MCMC Inefficiency factors per block
+Parameter       Block 1     Block 2
+SE_v_a          162.024     333.812
+SE_v_b          297.736     278.564
+alpha           417.450     469.291
+chi             425.664     530.707
+rho_a            34.628      40.719
+rho_b           192.669     226.158
+
+Estimation::mcmc::diagnostics: Univariate convergence diagnostic, Brooks and Gelman (1998):
+    Parameter 1...  Done! 
+    Parameter 2...  Done! 
+    Parameter 3...  Done! 
+    Parameter 4...  Done! 
+    Parameter 5...  Done! 
+    Parameter 6...  Done! 
+
+Estimation::marginal density: I'm computing the posterior mean and covariance...  Done!
+Estimation::marginal density: I'm computing the posterior log marginal density (modified harmonic mean)... Done!
+
+
+ESTIMATION RESULTS
+
+Log data density is -694.243758.
+
+parameters
+        prior mean   post. mean        95% HPD interval    prior       pstdev
+
+alpha        0.500       0.0967      0.0729      0.1228   beta        0.2887
+chi          1.000       0.1395      0.1313      0.1478   gamm        0.8452
+rho_a        0.500       0.9996      0.9991      1.0000   beta        0.2887
+rho_b        0.500       0.9987      0.9973      1.0000   beta        0.2887
+
+standard deviation of shocks
+        prior mean   post. mean        95% HPD interval    prior       pstdev
+
+v_a          0.100       1.4145      1.2880      1.5575   invg        4.0000
+v_b          0.100       1.1900      1.0892      1.3102   invg        4.0000
+Estimation::mcmc: Posterior (dsge) IRFs...
+Estimation::mcmc: Posterior IRFs, done!
+Total computing time : 0h59m00s

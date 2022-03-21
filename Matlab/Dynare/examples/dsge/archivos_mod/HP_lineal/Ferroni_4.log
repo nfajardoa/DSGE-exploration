@@ -1,0 +1,190 @@
+Starting Dynare (version 4.5.4).
+Starting preprocessing of the model file ...
+Found 8 equation(s).
+Evaluating expressions...done
+Computing static model derivatives:
+ - order 1
+ - order 2
+ - derivatives of Jacobian/Hessian w.r. to parameters
+Computing dynamic model derivatives:
+ - order 1
+ - order 2
+ - derivatives of Jacobian/Hessian w.r. to parameters
+Processing outputs ...
+done
+Preprocessing completed.
+
+STEADY-STATE RESULTS:
+
+y     		 0
+c     		 0
+k     		 0
+h     		 0
+e_a   		 0
+e_b   		 0
+y_obs 		 0
+h_obs 		 0
+
+
+
+
+Residuals of the static equations:
+
+Equation number 1 : 0
+Equation number 2 : 0
+Equation number 3 : 0
+Equation number 4 : 0
+Equation number 5 : 0
+Equation number 6 : 0
+Equation number 7 : 0
+Equation number 8 : 0
+
+
+Prior distribution for parameter alpha has unbounded density!
+Prior distribution for parameter alpha has two modes!
+Prior distribution for parameter rho_a has unbounded density!
+Prior distribution for parameter rho_a has two modes!
+Prior distribution for parameter rho_b has unbounded density!
+Prior distribution for parameter rho_b has two modes!
+Initial value of the log posterior (or likelihood): -1095.7002
+
+==========================================================
+   Change in the posterior covariance matrix = 16.
+   Change in the posterior mean = 0.99631.
+   Mode improvement = 1476.8926
+   New value of jscale = 0.00048959
+==========================================================
+
+==========================================================
+   Change in the posterior covariance matrix = 1.0069.
+   Change in the posterior mean = 3.6068.
+   Mode improvement = 890.4355
+   New value of jscale = 0.24061
+==========================================================
+
+==========================================================
+   Change in the posterior covariance matrix = 1.0086.
+   Change in the posterior mean = 2.1067.
+   Mode improvement = 898.6909
+   New value of jscale = 1.3429
+==========================================================
+
+Optimal value of the scale parameter = 1.3429
+
+
+Final value of minus the log posterior (or likelihood):-389.447691 
+
+MODE CHECK
+
+Fval obtained by the minimization routine (minus the posterior/likelihood)): -389.447691
+
+RESULTS FROM POSTERIOR ESTIMATION
+parameters
+    prior mean     mode    s.d. prior pstdev
+
+alpha   0.500   0.8438  0.0012 beta  0.2887 
+chi     1.000   0.0000  0.0001 gamm  0.8452 
+rho_a   0.500   0.7469  0.0033 beta  0.2887 
+rho_b   0.500   0.8528  0.0006 beta  0.2887 
+
+standard deviation of shocks
+    prior mean     mode    s.d. prior pstdev
+
+v_a     0.100   6.7354  0.0079 invg  4.0000 
+v_b     0.100   0.0204  0.0008 invg  4.0000 
+
+
+Log data density [Laplace approximation] is 351.103604.
+
+Estimation::mcmc: Multiple chains mode.
+Estimation::mcmc: Old mh-files successfully erased!
+Estimation::mcmc: Old metropolis.log file successfully erased!
+Estimation::mcmc: Creation of a new metropolis.log file.
+Estimation::mcmc: Searching for initial values...
+Estimation::mcmc: Initial values found!
+
+Estimation::mcmc: Write details about the MCMC... Ok!
+Estimation::mcmc: Details about the MCMC are available in Ferroni_4/metropolis\Ferroni_4_mh_history_0.mat
+
+
+Estimation::mcmc: Number of mh files: 1 per block.
+Estimation::mcmc: Total number of generated files: 2.
+Estimation::mcmc: Total number of iterations: 50000.
+Estimation::mcmc: Current acceptance ratio per chain: 
+                                                       Chain  1: 33.608%
+                                                       Chain  2: 33.464%
+Estimation::mcmc: Total number of MH draws per chain: 50000.
+Estimation::mcmc: Total number of generated MH files: 1.
+Estimation::mcmc: I'll use mh-files 1 to 1.
+Estimation::mcmc: In MH-file number 1 I'll start at line 25001.
+Estimation::mcmc: Finally I keep 25000 draws per chain.
+
+
+
+MCMC Inefficiency factors per block
+Parameter       Block 1     Block 2
+SE_v_a          632.175     694.203
+SE_v_b           15.573      18.953
+alpha           301.681     395.716
+chi              15.308      13.237
+rho_a           628.221     559.595
+rho_b           694.784     646.183
+
+Estimation::mcmc::diagnostics: Univariate convergence diagnostic, Brooks and Gelman (1998):
+    Parameter 1...  Done! 
+    Parameter 2...  Done! 
+    Parameter 3...  Done! 
+    Parameter 4...  Done! 
+    Parameter 5...  Done! 
+    Parameter 6...  Done! 
+
+Estimation::marginal density: I'm computing the posterior mean and covariance...  Done!
+Estimation::marginal density: I'm computing the posterior log marginal density (modified harmonic mean)... Done!
+
+
+ESTIMATION RESULTS
+
+Log data density is 364.160482.
+
+parameters
+        prior mean   post. mean        95% HPD interval    prior       pstdev
+
+alpha        0.500       0.8506      0.8336      0.8659   beta        0.2887
+chi          1.000       0.0002      0.0000      0.0004   gamm        0.8452
+rho_a        0.500       0.7467      0.6959      0.8091   beta        0.2887
+rho_b        0.500       0.8521      0.8192      0.8797   beta        0.2887
+
+standard deviation of shocks
+        prior mean   post. mean        95% HPD interval    prior       pstdev
+
+v_a          0.100       7.0929      6.5521      7.5123   invg        4.0000
+v_b          0.100       0.0206      0.0191      0.0220   invg        4.0000
+Estimation::mcmc: Posterior (dsge) IRFs...
+Estimation::mcmc: Posterior IRFs, done!
+Prior distribution for parameter alpha has unbounded density!
+Prior distribution for parameter alpha has two modes!
+Prior distribution for parameter rho_a has unbounded density!
+Prior distribution for parameter rho_a has two modes!
+Prior distribution for parameter rho_b has unbounded density!
+Prior distribution for parameter rho_b has two modes!
+
+==== Identification analysis ====
+
+Prior distribution for parameter alpha has unbounded density!
+Prior distribution for parameter alpha has two modes!
+Prior distribution for parameter rho_a has unbounded density!
+Prior distribution for parameter rho_a has two modes!
+Prior distribution for parameter rho_b has unbounded density!
+Prior distribution for parameter rho_b has two modes!
+Testing prior mean
+  
+All parameters are identified in the model (rank of H).
+
+
+All parameters are identified by J moments (rank of J)
+
+
+==== Identification analysis completed ====
+
+
+Total computing time : 0h28m45s

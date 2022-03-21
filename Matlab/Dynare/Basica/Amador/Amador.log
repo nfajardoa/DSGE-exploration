@@ -1,0 +1,127 @@
+Starting Dynare (version 4.5.4).
+Starting preprocessing of the model file ...
+Substitution of endo leads >= 2: added 11 auxiliary variables and equations.
+Substitution of endo lags >= 2: added 11 auxiliary variables and equations.
+Found 38 equation(s).
+Evaluating expressions...done
+Computing static model derivatives:
+ - order 1
+Computing dynamic model derivatives:
+ - order 1
+ - order 2
+Processing outputs ...
+done
+Preprocessing completed.
+ic model derivatives:
+ - order 1
+Computing dynamic model derivatives:
+ - order 1
+ - order 2
+Processing outputs ...
+done
+Preprocessing completed.
+
+
+STEADY-STATE RESULTS:
+
+y_t               		 0
+y_bar_t           		 0
+pi_t              		 0
+i_t               		 0
+r_t               		 0
+r_us_t            		 0
+r_bar_t           		 0
+r_usbar_t         		 0
+z_t               		 0
+z_bar_t           		 0
+zgap_t            		 0
+rgap_t            		 0
+ygap_t            		 0
+x_t               		 0
+psi_t             		 0
+pi_tar            		 0
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print_info', 'C:\dynare\4.5.4\matlab\print_info.m', 45)" style="font-weight:bold">print_info</a> (<a href="matlab: opentoline('C:\dynare\4.5.4\matlab\print_info.m',45,0)">line 45</a>)
+Blanchard Kahn conditions are not satisfied: indeterminacy
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('stoch_simul', 'C:\dynare\4.5.4\matlab\stoch_simul.m', 100)" style="font-weight:bold">stoch_simul</a> (<a href="matlab: opentoline('C:\dynare\4.5.4\matlab\stoch_simul.m',100,0)">line 100</a>)
+    print_info(info, options_.noprint, options_);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Amador', 'D:\Nicolas_Fajardo\Matlab\Dynare\Basica\Amador\Amador.m', 427)" style="font-weight:bold">Amador</a> (<a href="matlab: opentoline('D:\Nicolas_Fajardo\Matlab\Dynare\Basica\Amador\Amador.m',427,0)">line 427</a>)
+info = stoch_simul(var_list_);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\4.5.4\matlab\dynare.m', 223)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\4.5.4\matlab\dynare.m',223,0)">line 223</a>)
+evalin('base',fname) ;
+} 
+clc
+clear all
+Data_Retrieval_Mensual_Diciembre2017_rev
+clear all
+clc
+Data_Retrieval_Mensual_Diciembre2017_rev
+Model_Mensual_Output_29Enero2018
+
+write =
+
+     1
+
+
+Configuring Dynare ...
+[mex] Generalized QZ.
+[mex] Sylvester equation solution.
+[mex] Kronecker products.
+[mex] Sparse kronecker products.
+[mex] Local state space iteration (second order).
+[mex] Bytecode evaluation.
+[mex] k-order perturbation solver.
+[mex] k-order solution simulation.
+[mex] Quasi Monte-Carlo sequence (Sobol).
+[mex] Markov Switching SBVAR.
+
+Using 64-bit preprocessor
+Starting Dynare (version 4.5.4).
+Starting preprocessing of the model file ...
+ERROR: in the 'steady_state_model' block, variable 'pitar_' is undefined in the declaration of variable 'iobs_t'
+
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\4.5.4\matlab\dynare.m', 217)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\4.5.4\matlab\dynare.m',217,0)">line 217</a>)
+DYNARE: preprocessing failed
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Model_Mensual_Output_29Enero2018', 'D:\Nicolas_Fajardo\Matlab\Dynare\Basica\ISE\Model_Mensual_Output_29Enero2018.m', 6)" style="font-weight:bold">Model_Mensual_Output_29Enero2018</a> (<a href="matlab: opentoline('D:\Nicolas_Fajardo\Matlab\Dynare\Basica\ISE\Model_Mensual_Output_29Enero2018.m',6,0)">line 6</a>)
+dynare Model_Mensual_ARMA_7_12_29Enero2018.mod
+} 
+Model_Mensual_Output_29Enero2018
+
+write =
+
+     1
+
+
+Configuring Dynare ...
+[mex] Generalized QZ.
+[mex] Sylvester equation solution.
+[mex] Kronecker products.
+[mex] Sparse kronecker products.
+[mex] Local state space iteration (second order).
+[mex] Bytecode evaluation.
+[mex] k-order perturbation solver.
+[mex] k-order solution simulation.
+[mex] Quasi Monte-Carlo sequence (Sobol).
+[mex] Markov Switching SBVAR.
+
+Using 64-bit preprocessor
+Starting Dynare (version 4.5.4).
+Starting preprocessing of the model file ...
+WARNING: in the 'steady_state_model' block, variable 'piobs_t' is not assigned a value
+Substitution of endo leads >= 2: added 22 auxiliary variables and equations.
+Substitution of endo lags >= 2: added 40 auxiliary variables and equations.
+Substitution of exo lags: added 12 auxiliary variables and equations.
+Found 94 equation(s).
+Evaluating expressions...done
+Computing static model derivatives:
+ - order 1
+Computing dynamic model derivatives:
+ - order 1
+ - order 2
+Processing outputs ...
+done
+Preprocessing completed.
+

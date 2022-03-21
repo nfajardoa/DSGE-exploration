@@ -1,0 +1,129 @@
+Starting Dynare (version 4.5.4).
+Starting preprocessing of the model file ...
+Found 10 equation(s).
+Evaluating expressions...done
+Computing static model derivatives:
+ - order 1
+Computing dynamic model derivatives:
+ - order 1
+Processing outputs ...
+done
+Preprocessing completed.
+
+STEADY-STATE RESULTS:
+
+y      		 2.36641
+c      		 1.86078
+k      		 20.2251
+h      		 0.94351
+e_a    		 0
+e_b    		 0
+y_obs  		 1
+h_obs  		 1
+gy_obs 		 1
+gh_obs 		 1
+
+
+
+
+Residuals of the static equations:
+
+Equation number 1 : 0
+Equation number 2 : 0
+Equation number 3 : 0
+Equation number 4 : 0
+Equation number 5 : 0
+Equation number 6 : 0
+Equation number 7 : 0
+Equation number 8 : 0
+Equation number 9 : 0
+Equation number 10 : 0
+
+
+
+MODEL SUMMARY
+
+  Number of variables:         10
+  Number of stochastic shocks: 2
+  Number of state variables:   7
+  Number of jumpers:           4
+  Number of static variables:  2
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables         v_a       v_b
+v_a          1.000000  0.000000
+v_b          0.000000  0.250000
+
+POLICY AND TRANSITION FUNCTIONS
+                                   y               c               k               h             e_a             e_b           y_obs           h_obs          gy_obs          gh_obs
+Constant                    2.366410        1.860781       20.225140        0.943510               0               0        1.000000        1.000000        1.000000        1.000000
+k(-1)                       0.021166        0.047951        0.948215       -0.007937               0               0        0.008944       -0.008412        0.008944       -0.008412
+h(-1)                              0               0               0               0               0               0               0       -1.059873               0       -1.059873
+y_obs(-1)                          0               0               0               0               0               0        1.000000               0               0               0
+h_obs(-1)                          0               0               0               0               0               0               0        1.000000               0               0
+y(-1)                              0               0               0               0               0               0       -0.422581               0       -0.422581               0
+e_a(-1)                    -1.701533        1.208834      -18.685976       -0.645678        0.800000               0        0.080964       -0.684337        0.080964       -0.684337
+e_b(-1)                    -1.701533        1.208834      -18.685976       -0.645678               0        0.800000        0.080964        0.115663        0.080964        0.115663
+v_a                        -2.126917        1.511042      -23.357471       -0.807098        1.000000               0        0.101205       -0.855421        0.101205       -0.855421
+v_b                        -2.126917        1.511042      -23.357471       -0.807098               0        1.000000        0.101205        0.144579        0.101205        0.144579
+
+
+MOMENTS OF SIMULATED VARIABLES
+VARIABLE              MEAN       STD. DEV.        VARIANCE        SKEWNESS        KURTOSIS
+y                 8.404223        5.119085       26.205032       -0.188677       -0.328631
+c                12.461840        8.092917       65.495307       -0.259713       -0.215881
+k               255.742923      165.776929    27481.990123       -0.262554       -0.326667
+h                -0.540459        1.741137        3.031557        0.253098        0.200169
+e_a              -0.384552        1.687523        2.847736        0.196053       -0.564545
+e_b              -0.101667        0.729345        0.531943       -0.059341        0.027539
+y_obs           -31.848573       22.419625      502.639578       -0.026004       -1.447306
+h_obs             3.652659       10.021826      100.437002        0.832202       -0.536614
+gy_obs            0.516631        1.228834        1.510032       -0.093037       -0.636800
+gh_obs            0.923732        1.276683        1.629920       -0.161337       -0.303147
+
+
+CORRELATION OF SIMULATED VARIABLES
+VARIABLE         y       c       k       h     e_a     e_b   y_obs   h_obs  gy_obs  gh_obs
+y           1.0000  0.5300  0.8824 -0.0385 -0.6990  0.0344 -0.1828 -0.0135 -0.7593 -0.0874
+c           0.5300  1.0000  0.8666 -0.8677  0.1162  0.1526 -0.2171 -0.0630 -0.1129 -0.1746
+k           0.8824  0.8666  1.0000 -0.5040 -0.3468  0.1049 -0.2281 -0.0429 -0.5094 -0.1483
+h          -0.0385 -0.8677 -0.5040  1.0000 -0.5467 -0.1597  0.1487  0.0664 -0.3120  0.1545
+e_a        -0.6990  0.1162 -0.3468 -0.5467  1.0000 -0.3539  0.1882  0.0276  0.7382 -0.2489
+e_b         0.0344  0.1526  0.1049 -0.1597 -0.3539  1.0000 -0.3567 -0.1405  0.0015  0.4893
+y_obs      -0.1828 -0.2171 -0.2281  0.1487  0.1882 -0.3567  1.0000  0.6699  0.1057 -0.1269
+h_obs      -0.0135 -0.0630 -0.0429  0.0664  0.0276 -0.1405  0.6699  1.0000  0.0370  0.0114
+gy_obs     -0.7593 -0.1129 -0.5094 -0.3120  0.7382  0.0015  0.1057  0.0370  1.0000  0.4622
+gh_obs     -0.0874 -0.1746 -0.1483  0.1545 -0.2489  0.4893 -0.1269  0.0114  0.4622  1.0000
+
+
+AUTOCORRELATION OF SIMULATED VARIABLES
+VARIABLE         1       2       3       4       5
+y           0.8921  0.7605  0.6514  0.5524  0.4640
+c           0.9319  0.8361  0.7391  0.6396  0.5438
+k           0.9691  0.9114  0.8338  0.7445  0.6492
+h           0.8040  0.5834  0.4307  0.3120  0.2258
+e_a         0.8029  0.5937  0.4473  0.3288  0.2539
+e_b         0.7725  0.5713  0.4317  0.3168  0.2163
+y_obs       0.9927  0.9874  0.9805  0.9726  0.9640
+h_obs       0.9873  0.9729  0.9591  0.9455  0.9324
+gy_obs      0.7782  0.4942  0.2995  0.1648  0.0856
+gh_obs      0.3149  0.0140 -0.0028 -0.0120 -0.0239
+
+
+
+VARIANCE DECOMPOSITION SIMULATING ONE SHOCK AT A TIME (in percent)
+                       v_a               v_b  Tot. lin. contr.
+y                   171.22             44.68            215.89
+c                   181.45             45.25            226.71
+k                   196.58             53.14            249.72
+h                   138.43             27.95            166.39
+e_a                 100.72              0.00            100.72
+e_b                   0.00            100.72            100.72
+y_obs                56.71             19.30             76.01
+h_obs                 4.69            112.12            116.82
+gy_obs              118.05             23.00            141.05
+gh_obs               63.85             43.51            107.36
+Note: numbers do not add up to 100 due to non-zero correlation of simulated shocks in small samples
+
+Total computing time : 0h01m09s
